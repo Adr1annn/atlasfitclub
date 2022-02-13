@@ -12,7 +12,7 @@ const Offers = () => {
   const [isHoveringTwo, setIsHoveredTwo] = useState(false);
   const [isHoveringThree, setIsHoveredThree] = useState(false);
 
-  return  <div className="bg-[#e9ecf5] pb-30px">
+  return  <section className="bg-light-gray pb-30px">
             <div className="container">
               <div className="grid grid-cols-3 gap-5">
                 <div className='bg-white p-25px -translate-y-[70px] rounded'>
@@ -71,7 +71,7 @@ const Offers = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </section>
 }
 
 export default Offers;

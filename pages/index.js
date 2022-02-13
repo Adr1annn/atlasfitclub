@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 
 import Hero from '../components/Hero';
 import Offers from '../components/Offers';
+import AboutUs from '../components/AboutUs';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
 
       <Hero/>
       <Offers/>
+      <AboutUs/>
     </div>
   )
 }
