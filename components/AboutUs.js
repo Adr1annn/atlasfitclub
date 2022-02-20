@@ -17,7 +17,7 @@ const AboutUs = () => {
 
   const [isHovering, setIsHovered] = useState(false);
 
-  return  <section className='container mx-auto py-[100px]'>
+  return  <section className='container mx-auto py-[60px]'>
             <p className="relative tracking-wider text-center text-4xl font-semibold mb-30px after:content-[''] after:absolute after:w-[60px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">DESPRE NOI</p>
             <p className='text-center text-gray mb-[70px] max-w-[700px] mx-auto tracking-widest'>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
             <div className='grid grid-cols-3 gap-7 h-[465px]'>
