@@ -20,9 +20,9 @@ const AboutUs = () => {
   return  <section className='container mx-auto py-[60px]'>
             <p className="relative tracking-wider text-center text-4xl font-semibold mb-30px after:content-[''] after:absolute after:w-[60px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">DESPRE NOI</p>
             <p className='text-center text-gray mb-[70px] max-w-[700px] mx-auto tracking-widest'>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-            <div className='grid grid-cols-3 gap-7 h-[465px]'>
-              <div className="relative h-full w-full bg-light-gray">
-                <div className="bg-[url('/Florin_Donisan.jpg')] h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-7 lg:h-[465px]'>
+              <div className="relative h-full w-full bg-light-gray lg:mb-0">
+                <div className="bg-[url('/Florin_Donisan.jpg')] h-[465px] lg:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
                 <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>
                   <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
                     <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
@@ -44,7 +44,7 @@ const AboutUs = () => {
               </div>
 
               <div className="relative h-full w-full bg-light-gray">
-                <div className="bg-[url('/Dana_Donisan.jpg')] h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
+                <div className="bg-[url('/Dana_Donisan.jpg')] h-[465px] lg:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
                 <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>   
                   <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
                     <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
@@ -66,7 +66,7 @@ const AboutUs = () => {
               </div>
 
               <div className="relative h-full w-full bg-light-gray">
-                <div className="bg-[url('/Maria_Savu.jpg')] h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
+                <div className="bg-[url('/Maria_Savu.jpg')] h-[465px] lg:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
                 <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>
                   <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
                     <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>

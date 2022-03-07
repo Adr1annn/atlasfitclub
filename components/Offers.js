@@ -12,10 +12,10 @@ const Offers = () => {
   const [isHoveringTwo, setIsHoveredTwo] = useState(false);
   const [isHoveringThree, setIsHoveredThree] = useState(false);
 
-  return  <section className="bg-light-gray pb-30px">
+  return  <section className="bg-light-gray lg:pb-30px pt-20px lg:pt-0">
             <div className="container">
-              <div className="grid grid-cols-3 gap-5">
-                <div className='bg-white p-25px -translate-y-[70px] rounded'>
+              <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-5">
+                <div className='bg-white p-25px mb-20px lg:mb-0 lg:-translate-y-[70px] rounded'>
                   <div className='flex justify-center mb-25px'>
                     <Image src="/dumbbell.svg" alt="Weight Lifting" height="60px" width="60px"/>
                   </div>
@@ -33,7 +33,7 @@ const Offers = () => {
                     />
                   </button>
                 </div>
-                <div className='bg-white p-25px -translate-y-[70px] rounded'>
+                <div className='bg-white p-25px mb-20px lg:mb-0 lg:-translate-y-[70px] rounded'>
                   <div className='flex justify-center mb-25px'>
                     <Image src="/exercise.svg" alt="Running" height="60px" width="60px"/>
                   </div>
@@ -51,7 +51,7 @@ const Offers = () => {
                     />
                   </button>
                 </div>
-                <div className='bg-white p-25px -translate-y-[70px] rounded'>
+                <div className='bg-white p-25px mb-20px lg:mb-0 lg:-translate-y-[70px] rounded'>
                   <div className='flex justify-center mb-25px'>
                     <Image src="/yoga-carpet.svg" alt="Yoga" height="60px" width="60px"/>
                   </div>

@@ -3,27 +3,21 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '2rem',
+      padding: {
+        DEFAULT: '20px'
+      },
       screens: {
-        sm: '600px',
-        md: '728px',
-        lg: '984px',
-        xl: '1195px',
-        '2xl': '1496px',
+        'sm': '1280px'
       },
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1200px',
+    },
     extend: {
-      screens: {
-        'mobile': '320px',
-        'tablet': '640px',
-        'desktop': '1024px',
-        'screen1140': '1140px',
-        'laptop': '1366px',
-        'xl': '1600px',
-        'xxl': '1920px',
-      },
       spacing: {
-        '-25px': '-25px',
         '4px': '4px',
         '5px': '5px',
         '7px': '7px',
@@ -65,33 +59,6 @@ module.exports = {
         '512px': '512px',
       },
     },
-    // backgroundColor: {
-    //   'primary': '#2F0BC4',
-    //   'secondary': '#1A1A1A',
-    //   'gold': '#C09949',
-    //   'white': '#FFFFFF',
-    //   'black': '#000000',
-    //   'gray': '#828282',
-    //   'red': '#ff0000',
-    //   'light-gray': '#e9ecf5'
-    // },
-    // borderColor: theme => ({
-    //   ...theme('colors'),
-    //   'primary': '#2F0BC4',
-    //   'secondary': '#1A1A1A',
-    //   'white': '#FFFFFF',
-    //   'red': '#ff0000',
-    // }),
-    // textColor: {
-    //   'primary': '#2F0BC4',
-    //   'secondary': '#1A1A1A',
-    //   'gold': '#C09949',
-    //   'white': '#FFFFFF',
-    //   'black': '#000000',
-    //   'gray': '#828282',
-    //   'red': '#ff0000',
-    //   'light-gray': '#e9ecf5'
-    // },
     colors: {
       'primary': '#2F0BC4',
       'secondary': '#1A1A1A',
