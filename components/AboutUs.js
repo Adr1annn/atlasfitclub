@@ -24,18 +24,26 @@ const AboutUs = () => {
               <div className="relative h-full w-full bg-light-gray lg:mb-0">
                 <div className="bg-[url('/Florin_Donisan.jpg')] h-[465px] lg:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
                 <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faGoogle} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faPhone} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/> 
-                  </a>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faGoogle} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faPhone} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/> 
+                    </a>
+                  </Link>
                 </div>
                 <div className='absolute -rotate-90 bottom-[60%] left-[42%] w-full'>
                   <p className='font-semibold tracking-widest'>FLORIN DONISAN</p>
@@ -45,19 +53,27 @@ const AboutUs = () => {
 
               <div className="relative h-full w-full bg-light-gray">
                 <div className="bg-[url('/Dana_Donisan.jpg')] h-[465px] lg:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
-                <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>   
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faGoogle} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faPhone} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/> 
-                  </a>
+                <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faGoogle} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faPhone} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/> 
+                    </a>
+                  </Link>
                 </div>
                 <div className='absolute -rotate-90 bottom-[60%] left-[42%] w-full'>
                   <p className='font-semibold tracking-widest'>DANA DONISAN</p>
@@ -68,18 +84,26 @@ const AboutUs = () => {
               <div className="relative h-full w-full bg-light-gray">
                 <div className="bg-[url('/Maria_Savu.jpg')] h-[465px] lg:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
                 <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faGoogle} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
-                  </a>
-                  <a href="/" className='transition ease-in-out duration-300 hover:scale-150'>
-                    <FontAwesomeIcon icon={faPhone} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/> 
-                  </a>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faGoogle} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                      <FontAwesomeIcon icon={faPhone} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/> 
+                    </a>
+                  </Link>
                 </div>
                 <div className='absolute -rotate-90 bottom-[60%] left-[42%] w-full'>
                   <p className='font-semibold tracking-widest'>MARIA SAVU</p>

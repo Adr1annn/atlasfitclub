@@ -55,7 +55,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className='mx-10 w-[18rem] relative flex justify-center'>
-                <div className='absolute bg-white p-15px rounded -top-12'>
+                <div className='absolute bg-white py-15px px-35px rounded-full -top-12'>
                   <Image src="/logo-small.png" alt="Vercel Logo" height="100" width="220"/>
                 </div>
               </li>

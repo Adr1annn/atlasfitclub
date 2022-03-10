@@ -48,7 +48,7 @@ const Testimonials = () => {
 
                   </div>
                   <h6 className="text-center uppercase tracking-wider mb-[30px] font-bold">Laura Elenea</h6>
-                  <p className="text-center mb-10 text-gray max-w-[700px] mx-auto">Clasele voastre?hm🤔 ...sunt pline de dragoste și căldură😎 devotament, implicare și ambiție! Pline de îmbrățișări, zâmbete și voie bună... de rezultate și "divastyle"😎😅</p>
+                  <p className="text-center mb-10 text-gray max-w-[700px] mx-auto">Clasele voastre?hm🤔 ...sunt pline de dragoste și căldură😎 devotament, implicare și ambiție! Pline de îmbrățișări, zâmbete și voie bună... de rezultate și &quot;divastyle&quot;😎😅</p>
                 </div>
                 <div className="flex justify-center">
                   <div className="h-[100px] w-[100px] mb-[10px] bg-primary mx-auto rounded-full">
