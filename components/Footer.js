@@ -9,8 +9,6 @@ import {
 
 
 const Footer = () => {
-  const [showModal, setShowModal] = useState(false);
-
   return  <footer className="bg-primary py-60px lg:py-[100px]">
 
             <div className="container mx-auto">
