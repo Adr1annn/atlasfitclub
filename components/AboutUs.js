@@ -10,12 +10,15 @@ import {
 import { 
   faFacebook,
   faTwitter,
-  faGoogle
+  faGoogle,
+  faInstagram
 } from '@fortawesome/free-brands-svg-icons'
 
-const AboutUs = () => {
+import Modal from './Modal';
 
+const AboutUs = () => {
   const [isHovering, setIsHovered] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return  <section className='container mx-auto py-[60px]'>
             <p className="relative tracking-wider text-center text-4xl font-semibold mb-30px after:content-[''] after:absolute after:w-[60px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">DESPRE NOI</p>
@@ -26,11 +29,11 @@ const AboutUs = () => {
                 <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>
                   <Link href="/">
                     <a className='transition ease-in-out duration-300 hover:scale-150'>
-                      <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
+                      <FontAwesomeIcon icon={faInstagram} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
                     </a>
                   </Link>
-                  <Link href="/">
-                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                  <Link href="https://www.facebook.com/florin.donisan">
+                    <a className='transition ease-in-out duration-300 hover:scale-150' target="_blank">
                       <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
                     </a>
                   </Link>
@@ -59,8 +62,8 @@ const AboutUs = () => {
                       <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
                     </a>
                   </Link>
-                  <Link href="/">
-                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                  <Link href="https://www.facebook.com/e.dana.bubu">
+                    <a className='transition ease-in-out duration-300 hover:scale-150' target="_blank">
                       <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
                     </a>
                   </Link>
@@ -89,8 +92,8 @@ const AboutUs = () => {
                       <FontAwesomeIcon icon={faTwitter} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
                     </a>
                   </Link>
-                  <Link href="/">
-                    <a className='transition ease-in-out duration-300 hover:scale-150'>
+                  <Link href="https://www.facebook.com/savu.maria.79">
+                    <a className='transition ease-in-out duration-300 hover:scale-150' target="_blank">
                       <FontAwesomeIcon icon={faFacebook} style={{ fontSize: 18, marginLeft: 10, marginRight: 10 }}/>
                     </a>
                   </Link>
@@ -116,6 +119,7 @@ const AboutUs = () => {
               className='block mx-auto mt-40px px-20px py-[7px] border-2 border-primary rounded-full text-primary font-semibold transition ease-in-out duration-300 hover:bg-[#2F0BC4] hover:text-white'
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
+              onClick={() => setShowModal(true)}
             >
               Vezi Toata Echipa
               <FontAwesomeIcon
@@ -123,6 +127,8 @@ const AboutUs = () => {
                 style={{ fontSize: 14, color: isHovering ? 'white' : "#2F0BC4", marginLeft: 10, transform: isHovering ? `translateX(10px)` : ``,  transition: 'transform 0.35s ease-in-out', }}
               />
             </button>
+
+            { showModal ? <Modal closeModal={() => setShowModal(false)}/> : null }
           </section>
 }
 

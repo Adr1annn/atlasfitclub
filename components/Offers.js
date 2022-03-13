@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from 'react';
+import Modal from './Modal';
 
 import {
   faArrowRight
@@ -11,6 +12,7 @@ const Offers = () => {
   const [isHoveringOne, setIsHoveredOne] = useState(false);
   const [isHoveringTwo, setIsHoveredTwo] = useState(false);
   const [isHoveringThree, setIsHoveredThree] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return  <section className="bg-light-gray lg:pb-30px pt-20px lg:pt-0">
             <div className="container">
@@ -25,6 +27,7 @@ const Offers = () => {
                     className='block mx-auto my-20px px-20px py-[7px] border-2 border-primary rounded-full text-primary font-semibold transition ease-in-out duration-300 hover:bg-[#2F0BC4] hover:text-white'
                     onMouseEnter={() => setIsHoveredOne(true)}
                     onMouseLeave={() => setIsHoveredOne(false)}
+                    onClick={() => setShowModal(true)}
                   >
                     More
                     <FontAwesomeIcon
@@ -43,6 +46,7 @@ const Offers = () => {
                     className='block mx-auto my-20px px-20px py-[7px] border-2 border-primary rounded-full text-primary font-semibold transition ease-in-out duration-300 hover:bg-[#2F0BC4] hover:text-white'
                     onMouseEnter={() => setIsHoveredTwo(true)}
                     onMouseLeave={() => setIsHoveredTwo(false)}
+                    onClick={() => setShowModal(true)}
                   >
                     More
                     <FontAwesomeIcon
@@ -61,6 +65,7 @@ const Offers = () => {
                     className='block mx-auto my-20px px-20px py-[7px] border-2 border-primary rounded-full text-primary font-semibold transition ease-in-out duration-300 hover:bg-[#2F0BC4] hover:text-white'
                     onMouseEnter={() => setIsHoveredThree(true)}
                     onMouseLeave={() => setIsHoveredThree(false)}
+                    onClick={() => setShowModal(true)}
                   >
                     More
                     <FontAwesomeIcon
@@ -71,6 +76,8 @@ const Offers = () => {
                 </div>
               </div>
             </div>
+
+            { showModal ? <Modal closeModal={() => setShowModal(false)}/> : null }
           </section>
 }
 

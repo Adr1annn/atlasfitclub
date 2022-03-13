@@ -3,9 +3,12 @@ import { useRouter } from "next/router";
 import Image from 'next/image'
 import Link from 'next/link';
 
+import Modal from './Modal';
+
 const Header = () => {
   const router = useRouter();
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return  <header className='container md:h-100px'>
 
@@ -20,22 +23,22 @@ const Header = () => {
                 <ul className='h-full px-[20px]'>
                   <li>
                     <Link href="/" >
-                      <a className={"text-white transition ease-in-out duration-300 " + (router.pathname == "/" ? "underline underline-offset-2" : "")}>Acasa</a>
+                      <a className={"text-white transition ease-in-out duration-300 " + (router.pathname == "/" ? "underline underline-offset-2" : "")} >Acasa</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <a className="text-white ease-in-out duration-300">Galerie</a>
+                      <a className="text-white ease-in-out duration-300" onClick={() => setShowModal(true)}>Galerie</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <a className="text-white ease-in-out duration-300">Despre noi</a>
+                      <a className="text-white ease-in-out duration-300" onClick={() => setShowModal(true)}>Despre noi</a>
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <a className="text-white ease-in-out duration-300">Contact</a>
+                      <a className="text-white ease-in-out duration-300" onClick={() => setShowModal(true)}>Contact</a>
                     </Link>
                   </li>
                 </ul>
@@ -45,13 +48,13 @@ const Header = () => {
             {/* DESKTOP SECTION */}
             <ul className='items-center justify-center h-full hidden md:flex'>
               <li className='mr-10'>
-                <Link href="/" >
+                <Link href="/">
                   <a className={"font-semibold transition ease-in-out duration-300 hover:text-primary " + (router.pathname == "/" ? "text-primary" : "")}>Acasa</a>
                 </Link>
               </li>
               <li>
                 <Link href="/">
-                  <a className="font-semibold ease-in-out duration-300 hover:text-primary">Galerie</a>
+                  <a className="font-semibold ease-in-out duration-300 hover:text-primary" onClick={() => setShowModal(true)}>Galerie</a>
                 </Link>
               </li>
               <li className='mx-10 w-[18rem] relative flex justify-center'>
@@ -61,12 +64,12 @@ const Header = () => {
               </li>
               <li>
                 <Link href="/">
-                  <a className="font-semibold ease-in-out duration-300 hover:text-primary">Despre noi</a>
+                  <a className="font-semibold ease-in-out duration-300 hover:text-primary" onClick={() => setShowModal(true)}>Despre noi</a>
                 </Link>
               </li>
               <li className='ml-10'>
                 <Link href="/">
-                  <a className="font-semibold ease-in-out duration-300 hover:text-primary">Contact</a>
+                  <a className="font-semibold ease-in-out duration-300 hover:text-primary" onClick={() => setShowModal(true)}>Contact</a>
                 </Link>
               </li>
             </ul>
@@ -80,8 +83,9 @@ const Header = () => {
                 </span>
               </button>
             </div>
-            
-         
+
+            { showModal ? <Modal closeModal={() => setShowModal(false)}/> : null }
+        
           </header>
 }
 
