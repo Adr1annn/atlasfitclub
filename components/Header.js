@@ -22,13 +22,13 @@ const Header = () => {
                 </button>
                 <ul className='h-full px-[20px]'>
                   <li>
-                    <Link href="/" >
-                      <a className={"text-white transition ease-in-out duration-300 " + (router.pathname == "/" ? "underline underline-offset-2" : "")} >Acasa</a>
+                    <Link href="/">
+                      <a className={"text-white transition ease-in-out duration-300 " + (router.pathname == "/" ? "underline underline-offset-2" : "")} onClick={() => setMobileMenu(false)}>Acasa</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
-                      <a className="text-white ease-in-out duration-300" onClick={() => setShowModal(true)}>Galerie</a>
+                    <Link href="/gallery">
+                      <a className={"text-white transition ease-in-out duration-300 " + (router.pathname == "/gallery" ? "underline underline-offset-2" : "")} onClick={() => setMobileMenu(false)}>Galerie</a>
                     </Link>
                   </li>
                   <li>
@@ -53,8 +53,8 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/">
-                  <a className="font-semibold ease-in-out duration-300 hover:text-primary" onClick={() => setShowModal(true)}>Galerie</a>
+                <Link href="/gallery">
+                  <a className={"font-semibold transition ease-in-out duration-300 hover:text-primary " + (router.pathname == "/gallery" ? "text-primary" : "")}>Galerie</a>
                 </Link>
               </li>
               <li className='mx-10 w-[18rem] relative flex justify-center'>

@@ -70,7 +70,7 @@ module.exports = {
       'light-gray': '#e9ecf5'
     },
     textShadow: {
-      'lg': '0 0 3px rgba(0, 0, 0, .9), 0 0 10px rgba(0, 0, 0, .9)',
+      'lg': '2px 2px 4px rgba(0, 0, 0, 1), 2px 2px 20px rgba(0, 0, 0, 1)',
     }
   },
   variants: {

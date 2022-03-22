@@ -7,7 +7,7 @@ import AboutUs from '../components/AboutUs';
 import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
 
-export default function Home() {
+export default function GalleryPage() {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,11 +16,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero title="Atlas FitClub" layout="large" page="home"/>
-      <Offers/>
-      <AboutUs/>
-      <Gallery title="GALERIE" layout="few"/>
-      <Testimonials/>
+      <Hero layout="small" page="gallery" title="Galerie"/>
+      <div className='w-full h-[50px]'></div>
+      <Gallery title="GALERIA NOASTRA" layout="all"/>
     </div>
   )
 }
