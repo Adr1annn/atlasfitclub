@@ -4,7 +4,7 @@ const Gallery = ({ title, layout }) => {
 
   return  <section className='p-[20px]'>
             <p className="relative tracking-wider text-center text-4xl font-semibold mb-30px after:content-[''] after:absolute after:w-[60px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">{ title }</p>
-            <p className='text-center text-gray mb-[70px] max-w-[700px] mx-auto tracking-widest'>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            <p className='text-center text-gray mb-40px max-w-[700px] mx-auto tracking-widest'>Atlas FitClub este locul în care cu siguranță vei găsi o formă de antrenament pe gustul tău, alături de echipa noastră de antrenori ce vor face experiența ta completă.</p>
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:h-[465px] mb-[20px]">
               <Image src="/Gallery_2.jpg" alt="Weight Lifting" layout='responsive' height="100%" width="100%" quality={100}/>
               <Image src="/Gallery_14.jpg" alt="Weight Lifting" layout='responsive' height="100%" width="100%" quality={100}/>

@@ -22,7 +22,7 @@ const AboutUs = () => {
 
   return  <section className='container mx-auto py-[60px]'>
             <p className="relative tracking-wider text-center text-4xl font-semibold mb-30px after:content-[''] after:absolute after:w-[60px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">DESPRE NOI</p>
-            <p className='text-center text-gray mb-[70px] max-w-[700px] mx-auto tracking-widest'>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            <p className='text-center text-gray mb-[70px] max-w-[700px] mx-auto tracking-widest'>Atlas FitClub RĂDĂUȚI înseamnă ECHIPĂ!!! ❤ <br/>Atlas Fit Club este o sală la cele mai înalte standarde, cu aparate noi, de top cu ajutorul cărora poti să îți atingi potențialul maxim.</p>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-7 lg:h-[465px]'>
               <div className="relative h-full w-full bg-light-gray lg:mb-0">
                 <div className="bg-[url('/Florin_Donisan.jpg')] h-[465px] lg:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>

@@ -22,7 +22,7 @@ const Offers = () => {
                     <Image src="/dumbbell.svg" alt="Weight Lifting" height="60px" width="60px"/>
                   </div>
                   <h3 className="relative tracking-wider text-center font-semibold mb-20px after:content-[''] after:absolute after:w-[40px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">RIDICARE DE GREUTATI</h3>
-                  <p className="text-center text-gray text-base">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius</p>
+                  <p className="text-center text-gray text-base">Atlas FitClub pune la dispoziție aparete de ultimă generație, precum și diferite tipuri de greutăți pentru a facilita dezvoltarea masei muscalare.</p>
                   <button 
                     className='block mx-auto my-20px px-20px py-[7px] border-2 border-primary rounded-full text-primary font-semibold transition ease-in-out duration-300 hover:bg-[#2F0BC4] hover:text-white'
                     onMouseEnter={() => setIsHoveredOne(true)}
@@ -41,7 +41,7 @@ const Offers = () => {
                     <Image src="/exercise.svg" alt="Running" height="60px" width="60px"/>
                   </div>
                   <h3 className="relative tracking-wider text-center font-semibold mb-20px after:content-[''] after:absolute after:w-[40px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">ALERGARE</h3>
-                  <p className="text-center text-gray">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius</p>
+                  <p className="text-center text-gray">Atlas FitClub oferă clienților benzi de alergat moderne, dar și aparate Cardio unde iși pot depăși limitele.</p>
                   <button 
                     className='block mx-auto my-20px px-20px py-[7px] border-2 border-primary rounded-full text-primary font-semibold transition ease-in-out duration-300 hover:bg-[#2F0BC4] hover:text-white'
                     onMouseEnter={() => setIsHoveredTwo(true)}
@@ -60,7 +60,7 @@ const Offers = () => {
                     <Image src="/yoga-carpet.svg" alt="Yoga" height="60px" width="60px"/>
                   </div>
                   <h3 className="relative tracking-wider text-center font-semibold mb-20px after:content-[''] after:absolute after:w-[40px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">ZUMBA</h3>
-                  <p className="text-center text-gray">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius</p>
+                  <p className="text-center text-gray">Pentru noi, e o onoare să ne bucurăm de clasele de Zumba, ținute cu atâta suflet și profesionalism de Andrei Podariu Zumba</p>
                   <button 
                     className='block mx-auto my-20px px-20px py-[7px] border-2 border-primary rounded-full text-primary font-semibold transition ease-in-out duration-300 hover:bg-[#2F0BC4] hover:text-white'
                     onMouseEnter={() => setIsHoveredThree(true)}

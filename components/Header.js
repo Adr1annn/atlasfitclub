@@ -75,7 +75,7 @@ const Header = () => {
             </ul>
 
             <div className='flex py-3 justify-between items-center md:hidden'>
-              <Image src="/logo-small.png" alt="Vercel Logo" height="100" width="220"/>
+              <Image src="/logo-small.webp" alt="Vercel Logo" height="100" width="220"/>
 
               <button onClick={() => setMobileMenu(true)}>
                 <span>
