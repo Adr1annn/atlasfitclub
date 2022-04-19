@@ -59,6 +59,8 @@ module.exports = {
         '320px': '320px',
         '500px': '500px',
         '512px': '512px',
+        '800px': '800px',
+        '1600px': '1600px'
       },
     },
     colors: {
