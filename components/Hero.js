@@ -5,7 +5,7 @@ import Modal from './Modal';
 const Hero = ({ layout, page, title }) => {
   const [showModal, setShowModal] = useState(false);
 
-  return  <section className={`${ page === "home" ? "bg-[url('/hero-2.webp')]" : "bg-[url('/Gallery_Hero.jpg')]" } h-400px md:h-[540px] w-full lg:h-[calc(100vh-100px)] bg-no-repeat bg-cover bg-top`}>
+  return  <section className={`${ page === "home" ? "bg-[url('/hero-2.webp')]" : "bg-[url('/Gallery/Gallery_Hero.jpg')]" } h-400px md:h-[540px] w-full lg:h-[calc(100vh-100px)] bg-no-repeat bg-cover bg-top`}>
             <div className='pt-20px md:pt-80px lg:pt-150px text-shadow-lg'>
               {
                 page === 'home' ?

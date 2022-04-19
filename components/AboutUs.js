@@ -25,7 +25,7 @@ const AboutUs = () => {
             <p className='text-center text-gray mb-[70px] max-w-[700px] mx-auto tracking-widest'>Atlas FitClub RĂDĂUȚI înseamnă ECHIPĂ!!! ❤ <br/>Atlas Fit Club este o sală la cele mai înalte standarde, cu aparate noi, de top cu ajutorul cărora poti să îți atingi potențialul maxim.</p>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-7 lg:h-[465px]'>
               <div className="relative h-full w-full bg-light-gray lg:mb-0">
-                <div className="bg-[url('/Florin_Donisan.jpg')] h-[465px] lg:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
+                <div className="bg-[url('/Florin_Donisan.jpg')] h-400px xl:h-full w-[85%] bg-no-repeat bg-cover bg-top"/>
                 <div className='absolute left-0 bottom-0 bg-white p-[8px] w-[70%] flex justify-center'>
                   <Link href="/">
                     <a className='transition ease-in-out duration-300 hover:scale-150'>

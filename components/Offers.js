@@ -19,7 +19,7 @@ const Offers = () => {
               <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-5">
                 <div className='bg-white p-25px mb-20px lg:mb-0 lg:-translate-y-[70px] rounded'>
                   <div className='flex justify-center mb-25px'>
-                    <Image src="/dumbbell.svg" alt="Weight Lifting" height="60px" width="60px"/>
+                    <Image src="/svgs/dumbbell.svg" alt="Weight Lifting" height="60px" width="60px"/>
                   </div>
                   <h3 className="relative tracking-wider text-center font-semibold mb-20px after:content-[''] after:absolute after:w-[40px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">RIDICARE DE GREUTATI</h3>
                   <p className="text-center text-gray text-base">Atlas FitClub pune la dispoziție aparete de ultimă generație, precum și diferite tipuri de greutăți pentru a facilita dezvoltarea masei muscalare.</p>
@@ -38,7 +38,7 @@ const Offers = () => {
                 </div>
                 <div className='bg-white p-25px mb-20px lg:mb-0 lg:-translate-y-[70px] rounded'>
                   <div className='flex justify-center mb-25px'>
-                    <Image src="/exercise.svg" alt="Running" height="60px" width="60px"/>
+                    <Image src="/svgs/exercise.svg" alt="Running" height="60px" width="60px"/>
                   </div>
                   <h3 className="relative tracking-wider text-center font-semibold mb-20px after:content-[''] after:absolute after:w-[40px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">ALERGARE</h3>
                   <p className="text-center text-gray">Atlas FitClub oferă clienților benzi de alergat moderne, dar și aparate Cardio unde iși pot depăși limitele.</p>
@@ -57,7 +57,7 @@ const Offers = () => {
                 </div>
                 <div className='bg-white p-25px mb-20px lg:mb-0 lg:-translate-y-[70px] rounded'>
                   <div className='flex justify-center mb-25px'>
-                    <Image src="/yoga-carpet.svg" alt="Yoga" height="60px" width="60px"/>
+                    <Image src="/svgs/yoga-carpet.svg" alt="Yoga" height="60px" width="60px"/>
                   </div>
                   <h3 className="relative tracking-wider text-center font-semibold mb-20px after:content-[''] after:absolute after:w-[40px] after:h-[2px] after:bg-[#2F0BC4] after:-bottom-[10px] after:left-0 after:right-0 after:mx-auto">ZUMBA</h3>
                   <p className="text-center text-gray">Pentru noi, e o onoare să ne bucurăm de clasele de Zumba, ținute cu atâta suflet și profesionalism de Andrei Podariu Zumba</p>
