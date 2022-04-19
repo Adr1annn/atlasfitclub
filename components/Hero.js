@@ -16,7 +16,7 @@ const Hero = ({ layout, page, title }) => {
               <p className='max-w-[600px] px-10px mx-auto text-center text-white mt-[10px] text-md lg:text-xl'>
                 {
                   page === 'home' ? 
-                    "Atlas Fit Club este o sală la cele mai înalte standarde, cu aparate noi, de top cu ajutorul cărora poti să îți atingi potențialul maxim. În sala de aerobic se țin clase variate, cu antrenori bine pregătiți."
+                    "Atlas FitClub este o sală la cele mai înalte standarde, cu aparate noi, de top cu ajutorul cărora poti să îți atingi potențialul maxim. În sala de aerobic se țin clase variate, cu antrenori bine pregătiți."
                   : page === 'gallery' ? 
                     "Dacă începi astăzi, vei vedea rezultate cu o zi mai devreme decât dacă aștepți până mâine. Începe astăzi!"
                   : null
